@@ -1,5 +1,5 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.js';
 import './assets/css/Main.css'
 import Layout from './components/Layout'
 import ProductCards from './components/homepage/ProductCards'
@@ -11,9 +11,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <ProductCards/>
-        <ProductZone />
         <PromotionsHome />
+        <ProductZone />
         <TestimonialsHome />
       </Layout>
     </div>

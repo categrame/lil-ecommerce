@@ -2,7 +2,9 @@ import React from 'react'
 
 const CartBtn = () => {
   return (
-    <div>CartBtn</div>
+    <form className="d-flex">
+      <button className="btn btn-outline-success" type="submit">Cart</button>
+    </form>
   )
 }
 
